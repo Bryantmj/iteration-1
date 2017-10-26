@@ -17,11 +17,14 @@ def iterate(list):
 		print item
 
 def print_list(list):
+	print ""
 
 def add_one(list):
 	# standard for loop with range
 	for i in range (0, len(list)):
 		list[i] += 1
+
+		return list
 
 def print_scores(names, scores):
 	for i in range(0, len(names)):
@@ -53,5 +56,4 @@ def max(numbers):
 	for n in numbers:
 		if n > current_max:
 			current_max = n
-
 	return current max
